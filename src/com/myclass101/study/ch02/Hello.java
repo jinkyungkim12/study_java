@@ -59,7 +59,7 @@ public class Hello {
 			System.out.println("커리큘럼 목차 소제목: " + curriculumSubtitle);
 			System.out.println("커리큘럼 목차: " + curriculumList);
 			System.out.println("환불 정책: " + refund);
-			
+			 
 			
 	}
 
