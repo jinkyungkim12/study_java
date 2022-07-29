@@ -20,7 +20,7 @@ public class PromotionExample {
 		int intValue2 = 1234567890;
 		System.out.println("intValue: " + intValue);
 		
-		byte byteValue2 = intValue2;
+		int byteValue2 = intValue2;
 		System.out.println("byteValue2: " + byteValue2 + "입니다!");
  	}
 
