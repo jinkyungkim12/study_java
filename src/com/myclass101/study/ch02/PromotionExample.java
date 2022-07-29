@@ -11,11 +11,17 @@ public class PromotionExample {
 		// byte < short < int < long < float < double
 		
 		byte byteValue = 10;
-		System.out.println(byteValue);
+		System.out.println("byteValue: " + byteValue +"입니다!");
 		
+		// 타입변환: 작은 => 큰 
 		int intValue = byteValue;
 		System.out.println("intValue: " + intValue);
 	
+		int intValue2 = 1234567890;
+		System.out.println("intValue: " + intValue);
+		
+		byte byteValue2 = intValue2;
+		System.out.println("byteValue2: " + byteValue2 + "입니다!");
  	}
 
 }
