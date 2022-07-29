@@ -6,8 +6,9 @@ public class LongExample {
 
 			
 		long var1 = 10;
-		long var2 = 20;
+		long var2 = 2045646443L;
 		
+		// long var2 = 100000000000;
 		
 		
 		
