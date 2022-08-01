@@ -31,8 +31,8 @@ public class PromotionExample {
 		int intValue3 = 200;
 		System.out.println("intValue3: " +intValue3 + "입니다!");
 		
-		double doubleValue = intValue3;
-		System.out.println("doubleValue: " +doubleValue + "입니다!");
+		//double doubleValue = intValue3;
+		//System.out.println("doubleValue: " +doubleValue + "입니다!");
 		
 		
 		// short에 byte 대입 후 출력
