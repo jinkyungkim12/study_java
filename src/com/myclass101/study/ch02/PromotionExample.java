@@ -28,8 +28,8 @@ public class PromotionExample {
 	//	System.out.println("byteValue2: " + byteValue2 + "입니다!");
 		
 		
-		int intValue3 = 200;
-		System.out.println("intValue3: " +intValue3 + "입니다!");
+		//int intValue3 = 200;
+		//System.out.println("intValue3: " +intValue3 + "입니다!");
 		
 		//double doubleValue = intValue3;
 		//System.out.println("doubleValue: " +doubleValue + "입니다!");
