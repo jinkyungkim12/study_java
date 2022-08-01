@@ -37,7 +37,7 @@ public class PromotionExample {
 		
 		// short에 byte 대입 후 출력
 		short shortvalue = byteValue;
-		System.out.println("shortvalue: " + byteValue);
+		System.out.println("shortvalue: " + byteValue + "입니다!");
 		
 		//int에 short 대입 후 출력
 		
