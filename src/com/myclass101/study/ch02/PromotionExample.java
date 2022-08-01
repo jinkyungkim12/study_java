@@ -55,8 +55,8 @@ public class PromotionExample {
 		System.out.println("floatValue: " + longValue + "입니다!");
 		
 		// double에 float 대입 후 출력
-		double doubleValue= floatValue;
-		System.out.println("doubleValue: " + floatValue + "입니다!");
+		double doubleValue2= floatValue;
+		System.out.println("doubleValue2: " + floatValue + "입니다!");
 		
 		
  	}
