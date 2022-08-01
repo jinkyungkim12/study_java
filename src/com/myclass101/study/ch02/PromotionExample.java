@@ -36,27 +36,27 @@ public class PromotionExample {
 		
 		
 		// short에 byte 대입 후 출력
-		short shortvalue = byteValue;
+		short shortValue = byteValue;
 		System.out.println("shortvalue: " + byteValue + "입니다!");
 		
 		//int에 short 대입 후 출력
 		
-		int intvalue= shortvalue;
-		System.out.println("intvalue: " + shortvalue + "입니다!");
+		int intValue= shortValue;
+		System.out.println("intValue: " + shortValue + "입니다!");
 		
 		// long에 int 대입 후 출력
 		
-		long longvalue= intvalue;
-		System.out.println("longvalue: " + intvalue + "입니다!");
+		long longValue= intValue;
+		System.out.println("longvalue: " + intValue + "입니다!");
 		
 		// float에 long 대입 후 출력
 		
-		float floatvalue= longvalue;
-		System.out.println("floatvalue: " + longvalue + "입니다!");
+		float floatValue= longValue;
+		System.out.println("floatValue: " + longValue + "입니다!");
 		
 		// double에 float 대입 후 출력
-		double doublevalue= floatvalue;
-		System.out.println("doublevalue: " + floatvalue + "입니다!");
+		double doubleValue= floatValue;
+		System.out.println("doubleValue: " + floatValue + "입니다!");
 		
 		
  	}
