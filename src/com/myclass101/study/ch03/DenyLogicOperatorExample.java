@@ -24,6 +24,12 @@ public class DenyLogicOperatorExample {
 			System.out.println("3임");
 		}
 		
+		if(!(j==4)) {
+			System.out.println("3이 아님");
+		} else {
+			System.out.println("3임");
+		}
+		
 	}
 
 }
