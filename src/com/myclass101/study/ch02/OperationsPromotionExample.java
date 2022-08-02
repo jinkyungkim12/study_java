@@ -26,6 +26,7 @@ public class OperationsPromotionExample {
 		
 		short shortValue = 12;
 		short shortValue2 = 12;
+		//short shortValue3 = shortValue + shortValue2;
 		int shortValue3 = shortValue + shortValue2;
 		System.out.println(shortValue3);
 		
@@ -33,7 +34,7 @@ public class OperationsPromotionExample {
 		
 		int intValue2 = 12;
 		int intValue4 = 12;
-		long intValue3 = intValue2 + intValue4;
+		int intValue3 = intValue2 + intValue4;
 		System.out.println(intValue3);
 		
 		//long
@@ -47,7 +48,7 @@ public class OperationsPromotionExample {
 		
 		float floatValue = 12;
 		float floatValue2 = 12;
-		double floatValue3 = floatValue + floatValue2;
+		float floatValue3 = floatValue + floatValue2;
 		System.out.println(floatValue3);
 		
 		//double
