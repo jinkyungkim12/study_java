@@ -33,8 +33,8 @@ public class OperationsPromotionExample {
 		//int
 		
 		int intValue2 = 12;
-		int intValue4 = 12;
-		int intValue3 = intValue2 + intValue4;
+		int intValue21 = 12;
+		int intValue3 = intValue2 + intValue21;
 		System.out.println(intValue3);
 		
 		//long
@@ -57,6 +57,18 @@ public class OperationsPromotionExample {
 		double doubleValue2 = 12;
 		double doubleValue3 = doubleValue + doubleValue2;
 		System.out.println(doubleValue3);
+		
+		
+		//byte 변수 byteValue4를 선언하고 byteValue + intValue;수행
+		// int 변수 intValue4를 선언하고 byteValue + intValue;수행
+		// byte byteValue4 = byteValue + intValue;
+		int intValue4 = byteValue + intValue;
+		System.out.println(intValue4);
+		
+		//int intValue5 = intValue + doubleValue;
+		double doubleValue4 = intValue + doubleValue;
+		System.out.println(doubleValue4);
+		
 	}
 
 }
