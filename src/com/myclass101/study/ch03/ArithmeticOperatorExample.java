@@ -32,6 +32,16 @@ public class ArithmeticOperatorExample {
 		
 		int result5 = v1 % v2;
 		System.out.println("result5: " +result5);
+	
+		
+		
+		// double 소숫점 계산 정확히 하기 위해서 (double)캐스팅 해줘야 함
+		
+		double result6 = v1 / v2;
+		System.out.println("result6: " +result6);
+		
+		double result7 = (double) v1 / v2;
+		System.out.println("result7: " +result7);
 	}
 
 }
