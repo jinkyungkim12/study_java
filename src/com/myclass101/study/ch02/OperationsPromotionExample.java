@@ -59,15 +59,24 @@ public class OperationsPromotionExample {
 		System.out.println(doubleValue3);
 		
 		
-		//byte 변수 byteValue4를 선언하고 byteValue + intValue;수행
-		// int 변수 intValue4를 선언하고 byteValue + intValue;수행
+		//byte 변수 byteValue4를 선언하고 byteValue intValue 합 연산 수행
+		//int 변수 intValue4를 선언하고 byteValue intValue 합 연산 수행
+		//intvalue4 결과 출력
 		// byte byteValue4 = byteValue + intValue;
 		int intValue4 = byteValue + intValue;
 		System.out.println(intValue4);
 		
+		
+		//int 변수 intValue5를 선언하고 intValue doubleValue 합 연산 수행
+		// double 변수 doubleValue4를 선언하고 intValue doubleValue 합 연산 수행
+		//doubleValue4 결과 출력
+		
 		//int intValue5 = intValue + doubleValue;
 		double doubleValue4 = intValue + doubleValue;
 		System.out.println(doubleValue4);
+		
+		
+		
 		
 	}
 
