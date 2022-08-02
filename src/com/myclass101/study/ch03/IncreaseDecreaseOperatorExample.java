@@ -29,6 +29,22 @@ public class IncreaseDecreaseOperatorExample {
 		
 		System.out.println("a: " + a);
 		System.out.println("b: " + b);
+		
+//		int 변수 k 선언 후 초기값으로 i뒤에 증감연산
+		
+		int k = i++;
+		System.out.println("k: " + k);
+		System.out.println("i: " + i);
+		
+		int m = ++j;
+		System.out.println("m: " + m);
+		System.out.println("j: " + j);
+		
+		//i:3, j:2; z:5
+		int z = ++i + j++;   
+		System.out.println("z: " + z); //5
+		System.out.println("i: " + i); //3
+		System.out.println("j: " + j); //3
 	}
 
 }
