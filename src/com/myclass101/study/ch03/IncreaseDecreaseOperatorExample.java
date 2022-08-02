@@ -16,6 +16,19 @@ public class IncreaseDecreaseOperatorExample {
 		System.out.println("i: " + i);
 		System.out.println("j: " + j);
 		
+//		int 변수 a,b를 선언하고 초기값으로 1을 넣어준다.
+//		a 앞에 감소연산
+//		b 뒤에 감소연산
+//		두 변수의 결과를 출력
+		
+		int a = 1;
+		int b = 1;
+		
+		--a;
+		b--;
+		
+		System.out.println("a: " + a);
+		System.out.println("b: " + b);
 	}
 
 }
