@@ -102,16 +102,29 @@ public class ArithmeticOperatorExample {
 		
 		// main 과 class 영역 사이에 새로운 함수를 적어야 한다.
 		
-		sum(8,7,5);
-		sum(1,9,5);
-		sum(5,6,6);
-		sum(4,7,1);
-		sum(7,5,5);
+		//sum(8,7,5);
+		//sum(1,9,5);
+		//sum(5,6,6);
+		//sum(4,7,1);
+		//sum(7,5,5);
+		
+		
+		
+		avg("홍길동", 60, 70, 85, 90, 45);
+		avg("박말순", 50, 75, 70, 60, 70);
+		avg("고장난", 55, 60, 64, 58, 90);
+		avg("도롱뇽", 80, 70, 63, 88, 78);
+		
+				
+	}
+
+	private static void avg(String name, int english, int math, int physics, int music, int athletic) {
+		System.out.println(name + "의 평균: " + (double)(english+math+physics+music+athletic)/5);
 		
 	}
 
-	private static void sum(int a, int b, int c) {
-			System.out.println(a + " + " + b + " + " + c + " = " + (a+b+c));
-	}
+	//private static void sum(int a, int b, int c) {
+			//System.out.println(a + " + " + b + " + " + c + " = " + (a+b+c));
+	//}
 
 }
