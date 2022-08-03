@@ -47,6 +47,8 @@ public class ArithmeticOperatorExample {
 		
 		
 		// 분수 계산
+		
+		// 첫 번째 문제
 						
 		double a1 = (double) 5 / 3;
 		double a2 = (double) 5 / 8;
@@ -55,6 +57,9 @@ public class ArithmeticOperatorExample {
 		double V1 = (double) a1 - a2;
 		double V2 = (double) V1 * a3;
 		System.out.println("V2: " + V2);
+		
+		
+		// 두 번째 문제
 		
 		double b1 = 5;
 		double b2 = 3.25;
@@ -67,6 +72,46 @@ public class ArithmeticOperatorExample {
 		System.out.println("V5: " + V5);
 		
 		
+		
+		int c1 = 1;
+		int c2 = 2;
+		int c3 = 3;
+		int c4 = 4;
+		int c5 = 5;
+		int c6 = 6;
+		int c7 = 7;
+		int c8 = 8;
+		int c9 = 9;
+
+		
+		int CV1 = c8 + c7 + c5;
+		System.out.println("CV1: " + CV1);
+		
+		int CV2 = c1 + c9 + c5;
+		System.out.println("CV2: " + CV2);
+		
+		int CV3 = c5 + c6 + c6;
+		System.out.println("CV3: " + CV3);
+		
+		int CV4 = c4 + c7 + c1;
+		System.out.println("CV4: " + CV4);
+		
+		int CV5 = c7 + c5 + c5;
+		System.out.println("CV5: " + CV5);
+		
+		
+		// main 과 class 영역 사이에 새로운 함수를 적어야 한다.
+		
+		sum(8,7,5);
+		sum(1,9,5);
+		sum(5,6,6);
+		sum(4,7,1);
+		sum(7,5,5);
+		
+	}
+
+	private static void sum(int a, int b, int c) {
+			System.out.println(a + " + " + b + " + " + c + " = " + (a+b+c));
 	}
 
 }
