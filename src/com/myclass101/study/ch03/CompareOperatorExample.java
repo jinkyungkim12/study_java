@@ -5,6 +5,8 @@ public class CompareOperatorExample {
 	public static void main(String[] args) {
 
 		// 비교연산자
+		// if else 문에 반드시 비교연산자 사용해야 함!
+		
 		
 		int num = 10;
 		int num2 = 20;
