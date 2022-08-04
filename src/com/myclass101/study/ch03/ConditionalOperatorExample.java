@@ -4,6 +4,8 @@ public class ConditionalOperatorExample {
 
 	public static void main(String[] args) {
 
+		// 삼항 연산자
+		
 		int score = 85;
 		
 		char grade = score > 90 ? 'A' : 'B';
