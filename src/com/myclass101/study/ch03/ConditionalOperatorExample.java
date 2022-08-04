@@ -10,9 +10,13 @@ public class ConditionalOperatorExample {
 		
 		System.out.println("grade: " + grade);
 		
+		System.out.println("----------------------");
 		
-		
-		
+		if(grade > 90) {
+			System.out.println("grade: A");
+		} else {
+			System.out.println("grade: B");
+		}
 	}
 
 }
