@@ -82,6 +82,7 @@ public class LogicalOperatorExample {
 		if(a >= 70 ^ a <=90) {
 			System.out.println("true");
 		}
+		
 	}
 
 }
