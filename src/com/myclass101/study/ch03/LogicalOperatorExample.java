@@ -59,7 +59,7 @@ public class LogicalOperatorExample {
 		
 		// ^ : 배타적 논리합 : 연산 참 참 폴스, 폴스 폴스 폴스, 참 폴스 참, 폴스 참 참
 		
-		// 참참 = 폴스
+		// 참 참 = 폴스
 		
 		if(a >= 65 ^ a <=90) {
 			System.out.println("false");
