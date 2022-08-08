@@ -27,6 +27,9 @@ public class IfExample2 {
 			int sale5 = (int) (price * 0.73);
 			System.out.println("플래티넘 등급 할인율은 27%, 정가: " + price + " 할인가 : " + sale5);
 		}
+		
+		
+		System.out.println("Hello World~!");
 	}
 
 }
