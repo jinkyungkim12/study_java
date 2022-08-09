@@ -10,19 +10,26 @@ public class IfExample5 {
 		int y = -10;
 		
 		if (x>0 && y>0){ 
-			System.out.println("1사분면 입니다.");
+			System.out.println("(x,y)는 1사분면에 위치합니다.");
 			
 		} else if(x<0 && y>0){
-			System.out.println("2사분면 입니다.");
+			System.out.println("(x,y)는 2사분면에 위치합니다.");
 			
 		} else if(x<0 && y<0){
-			System.out.println("3사분면 입니다.");
+			System.out.println("(x,y)는 3사분면에 위치합니다.");
 		
 		} else if(x>0 && y<0){
-			System.out.println("4사분면 입니다.");
+			System.out.println("(x,y)는 4사분면에 위치합니다.");
+		
+		}else if(x==0 && y!=0){
+			System.out.println("(x,y)는 x축 위에 있습니다.");
+		
+		}else if(x!=0 && y==0){
+			System.out.println("(x,y)는 x축 위에 있습니다.");
 		
 		}else {
-			System.out.println("(0,0)입니다.");
+			//a==0 && b==0
+			System.out.println("(x,y)는 원점입니다.");
 		
 		}
 	}
