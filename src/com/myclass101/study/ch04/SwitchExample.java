@@ -49,8 +49,6 @@ public class SwitchExample {
 			 break; 
 		}
 		
-		
-				
 	}
 
 }
