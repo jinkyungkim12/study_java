@@ -25,7 +25,7 @@ public class IfExample2 {
 		}
 		else{
 			int sale5 = (int) (price * 0.973);
-			System.out.println("플래티넘 등급 할인율은 27%, 정가: " + price +" 원,"+ " 할인가 : " + sale5 +" 원 입니다.");
+			System.out.println("플래티넘 등급 할인율은 2.7%, 정가: " + price +" 원,"+ " 할인가 : " + sale5 +" 원 입니다.");
 		}
 		
 	}
