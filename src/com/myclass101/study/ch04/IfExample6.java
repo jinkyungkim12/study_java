@@ -10,9 +10,9 @@ public class IfExample6 {
 		
 		
 		
-		int V1 = 7;
-		int V2 = 7;
-		int V3 = 7;
+		int V1 = 10;
+		int V2 = 20;
+		int V3 = 30;
 		
 		if (V1!=V2 && V2!=V3 && V3!= V1) {
 			
@@ -21,11 +21,11 @@ public class IfExample6 {
 			} else if (V2>V1 && V2>V3) {
 				System.out.println("MAX: V2");
 			} else {
-				System.out.println("MAX: V1");
+				System.out.println("MAX: V3");
 			}
 			
 				
-			 if(V1 < V2 && V1 < V3) {
+			 if(V1<V2 && V1<V3) {
 				System.out.println("MIN: V1");
 			} else if (V2<V1 && V2<V3) {
 				System.out.println("MIN: V2");
