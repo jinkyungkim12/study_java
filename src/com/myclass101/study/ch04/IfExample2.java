@@ -23,11 +23,13 @@ public class IfExample2 {
 			int sale4 = (int) (price * 0.8);
 			System.out.println("골드 등급 할인율은 20%, 정가: " + price +" 원,"+ " 할인가 : " + sale4 +" 원 입니다.");
 		}
-		else{
+		else if(grade == 5){
 			int sale5 = (int) (price * 0.973);
 			System.out.println("플래티넘 등급 할인율은 2.7%, 정가: " + price +" 원,"+ " 할인가 : " + sale5 +" 원 입니다.");
 		}
-		
+		else {
+			System.out.println("1~5 까지의 grade만 가능합니다.");
+		}
 	}
 
 }
