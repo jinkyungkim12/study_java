@@ -36,9 +36,6 @@ public class SwitchExample2 {
 			 System.out.println("비회원은 할인 적용대상이 아닙니다.");
 			 break; 
 		}
-		
-		
-		
 	}
 
 }
