@@ -13,11 +13,9 @@ public class IfExample3 {
 		
 		if(V2>V1){
 			System.out.println("V2가 V1보다 큽니다.");
-		}
-		else if(V1>V2){
+		} else if(V1>V2){
 			System.out.println("V1가 V2보다 큽니다.");
-		}
-		else {
+		} else {
 			System.out.println("V1와 V2가 같다.");
 		}
 		
