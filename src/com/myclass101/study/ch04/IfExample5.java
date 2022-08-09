@@ -21,13 +21,13 @@ public class IfExample5 {
 		} else if(x>0 && y<0){
 			System.out.println("(x,y)는 4사분면에 위치합니다.");
 		
-		}else if(x==0 && y!=0){
+		} else if(x==0 && y!=0){
 			System.out.println("(x,y)는 x축 위에 있습니다.");
 		
-		}else if(x!=0 && y==0){
+		} else if(x!=0 && y==0){
 			System.out.println("(x,y)는 x축 위에 있습니다.");
 		
-		}else {
+		} else {
 			//a==0 && b==0
 			System.out.println("(x,y)는 원점입니다.");
 		
