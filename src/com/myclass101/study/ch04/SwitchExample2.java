@@ -37,5 +37,7 @@ public class SwitchExample2 {
 			 break; 
 		}
 	}
+	
+	
 
 }
