@@ -11,6 +11,7 @@ public class MultiplicationTable {
 		System.out.println("2 * " + i + " = " + (2 * i));
 			
 		}
+		System.out.println("----------------------------");
 		
 		// 2단 ~ 9 단 까지 출력하는 프로그램 작성: 6줄 이상 되지 않	게
 		
