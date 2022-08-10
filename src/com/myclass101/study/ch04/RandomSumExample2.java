@@ -11,57 +11,35 @@ public class RandomSumExample2 {
 		//int random = (int) ((Math.random() * (max - min)) + min);
 		//System.out.println(random);
 		
-		double min = 1.0;
-		double max = 100.0;
-		int random = (int) ((Math.random() * (max - min)) + min);
-		int random2 = (int) ((Math.random() * (max - min)) + min);
-		int sum=0;
-		
-		if(random2>random){
-			for(int i=random+1; i<random2; i++) {
-				sum += i;
-			} 
-			System.out.println("random: "+ random + " random2: " + random2 + " sum = " + sum);
-			
-		} else if(random>random2){
-			for(int i=random2+1; i<random; i++) {
-				sum += i;
-			}
-			System.out.println("random: "+ random + " random2: " + random2 + " sum = " + sum);
-			
-		} else {
-			System.out.println("두 수 사이의 수가 존재하지 않습니다.");
-		}
-		
 		
 		
 		// 1 ~ 100 사이의 랜덤 정수 2개를 발생시켜
 				// 두 수 사이의 합을 구하라
 				
-//				double num1 = 1.0;
-//				double num2 = 100.0;
-//				
-//				int sum = 0, min = 0, max = 0;
-//				
-//				int random1 = (int) ((Math.random() * (num2 - num1)) + num1);
-//				int random2 = (int) ((Math.random() * (num2 - num1)) + num1);
-//				
-//				if (random1 < random2) {
-//					max = random2;
-//					min = random1;
-//				} else {
-//					max = random1;
-//					min = random2;
-//				}
-//				
-//				System.out.println("min : " + min + ", " + "max : " + max);
-//				
-//				for (int i = min; i <= max; i++) {
-//					sum += i;
-//					System.out.println(i + " : " + sum);
-//				}
-//				
-//				System.out.println("total : " + sum);
+				double num1 = 1.0;
+				double num2 = 100.0;
+				
+				int sum = 0, min = 0, max = 0;
+				
+				int random1 = (int) ((Math.random() * (num2 - num1)) + num1);
+				int random2 = (int) ((Math.random() * (num2 - num1)) + num1);
+				
+				if (random1 < random2) {
+					max = random2;
+					min = random1;
+				} else {
+					max = random1;
+					min = random2;
+				}
+				
+				System.out.println("min : " + min + ", " + "max : " + max);
+				
+				for (int i = min; i <= max; i++) {
+					sum += i;
+					System.out.println(i + " : " + sum);
+				}
+				
+				System.out.println("total : " + sum);
 
 				
 //				여기서 부터 정민님 소스
