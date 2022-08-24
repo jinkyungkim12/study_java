@@ -45,7 +45,13 @@ public class Korean {
 	
 	// static 추가 하면 Car car = new car (); 선언하지 않아도 된다!
 	
+	// static filed(객체)
 	static String nationality = "대한민국";
+	
+	// static method(함수)
+	static int staticTest (int a) {
+		return a+10;
+	}
 
 	
 }

@@ -30,7 +30,8 @@ public class KoreanExample {
 		
 		System.out.println("Korean.nationality: " + Korean.nationality);
 		
-		
+		int result = Korean.staticTest(10);
+		System.out.println("result: " + result);
 		
 	}
 
