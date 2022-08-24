@@ -22,13 +22,17 @@ public class Board {
 	
 	Board(String name, boolean useNY){
 		this.name = name;
-		this.useNY = true;
+		this.useNY = useNY;
 	}
 	
 	Board(String name, int views, boolean useNY){
 		this.name = name;
 		this.views = views;
-		this.useNY = true;
+		this.useNY = useNY;
+	}
+	
+	public void say() {
+		System.out.println("name: "+name+"/ views: "+views+"/ useNY: "+useNY);
 	}
 	
 }
