@@ -17,14 +17,19 @@ public class KoreanExample {
 		
 		
 		
-		Korean K1 = new Korean("차은우", "970507-123456");
-		System.out.println("name: " + K1.name);
-		System.out.println("ssn: " + K1.ssn);
-
+//		Korean K1 = new Korean("차은우", "970507-123456");
+//		System.out.println("name: " + K1.name);
+//		System.out.println("ssn: " + K1.ssn);
+//
+//		
+//		Korean K2 = new Korean("김진경", 30);
+//		System.out.println("name: " + K2.name);
+//		System.out.println("age: " + K2.age);
 		
-		Korean K2 = new Korean("김진경", 30);
-		System.out.println("name: " + K2.name);
-		System.out.println("age: " + K2.age);
+		
+		
+		System.out.println("Korean.nationality: " + Korean.nationality);
+		
 		
 		
 	}
