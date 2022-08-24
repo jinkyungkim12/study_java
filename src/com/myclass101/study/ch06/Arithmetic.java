@@ -31,4 +31,14 @@ public class Arithmetic {
 		System.out.println("result: "+ result);
 	}
 	
+	public String aaa (int a) {
+		return "";
+	}
+	
+	
+	static void staticTest() {
+		System.out.println("가나다라마바사");
+	}
+	
+	
 }
