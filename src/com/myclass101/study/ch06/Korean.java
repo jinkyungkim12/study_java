@@ -23,7 +23,7 @@ public class Korean {
 //		this.age = age;
 	
 	
-	
+	//practice
 	
 	String name = "";
 	String ssn = "";
@@ -42,6 +42,8 @@ public class Korean {
 		this.name = name;
 		this.age = age;
 	}
+	
+	// static 추가 하면 Car car = new car (); 선언하지 않아도 된다!
 	
 	static String nationality = "대한민국";
 

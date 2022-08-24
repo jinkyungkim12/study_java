@@ -15,7 +15,7 @@ public class KoreanExample {
 		
 		
 		
-		
+		// practice
 		
 //		Korean K1 = new Korean("차은우", "970507-123456");
 //		System.out.println("name: " + K1.name);
