@@ -10,6 +10,8 @@ public class Television {
 		
 		public String version = "1.0";
 		
+		
+		// static block
 		static {
 			info = company + " " + model;
 		}
