@@ -9,7 +9,7 @@ public class StudentExample {
 		// 모든 필드를 출력하시오
 		
 		
-		Student student = new Student("김진경", "930507-111111", 12);
+		Student student = new Student("김진경", "930507-234567", 12);
 		
 		
 		System.out.println("student.name: " + student.name);
@@ -17,11 +17,11 @@ public class StudentExample {
 		System.out.println("student.studentNO: " + student.studentNO);
 		
 		
-		Student student2 = new Student("차은우", "970330-111111");
+		Student student2 = new Student("차은우", "970330-123456");
 		
 		System.out.println("student2.name: " + student2.name);
 		System.out.println("student2.ssn: " + student2.ssn);
-		
+		System.out.println("student2.studentNO: " + student.studentNO);
 		
 	}
 
