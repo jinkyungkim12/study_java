@@ -1,7 +1,7 @@
 package com.myclass101.study.ch07.first;
 
 // 부모 자식 상속
- public class DmbCellPhone extends CellPhone{
+public class DmbCellPhone extends CellPhone{
 	 
 	 
 	 // 필드
@@ -15,6 +15,7 @@ package com.myclass101.study.ch07.first;
 	 DmbCellPhone(){
 	 }
 	 
+	 // 생성자 (명시적 생성자)
 	 DmbCellPhone(String model, String color, int channel){
 		 
 		 this.model = model;
