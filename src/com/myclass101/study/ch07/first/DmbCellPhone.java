@@ -5,10 +5,13 @@ package com.myclass101.study.ch07.first;
 	 
 	 
 	 // 필드
+	 
 	 int channel;
 
 	 
+	 
 	 // 생성자 2개
+	 
 	 DmbCellPhone(){
 	 }
 	 
@@ -18,6 +21,7 @@ package com.myclass101.study.ch07.first;
 		 this.color = color;
 		 this.channel = channel;
 	 }
+	 
 	 
 	 // 메소드
 	 
@@ -33,4 +37,7 @@ package com.myclass101.study.ch07.first;
 	 void turnOffDmb(){
 		 System.out.println("DMB 방송 수신을 멈춥니다.");
 	 }
+	 
+	 
+	 
  }
