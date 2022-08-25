@@ -7,9 +7,13 @@ public class People {
 	
 	
 	// 부모에 생성자가 존재한다.
+	// 명시적 생성자
 	public People(String name, String ssn) {
 		this.name = name;
 		this.ssn = ssn;
 	}
 	
+	//기본 생성자
+	public People() {
+	}
 }
