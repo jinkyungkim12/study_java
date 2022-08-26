@@ -6,7 +6,7 @@ public class StudentExample {
 
 		
 		// 명시적 생성자(2개)를 사용하여 객체를 생성하고
-		// 모든 필드를 출력하시오
+		// 모든 필드를 출력하시오!!
 		
 		
 		Student student = new Student("김진경", "930507-234567", 12);
