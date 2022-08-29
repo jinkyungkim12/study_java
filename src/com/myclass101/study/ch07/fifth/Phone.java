@@ -1,6 +1,6 @@
 package com.myclass101.study.ch07.fifth;
 
-public class Phone {
+public abstract class Phone {
 
 	
 	 // field
@@ -12,6 +12,9 @@ public class Phone {
 		this.owner= owner;
 	}
 	
+	Phone(){
+		
+	}
 	
 	// method
 	public void turnOn() {
