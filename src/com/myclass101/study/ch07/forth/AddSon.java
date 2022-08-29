@@ -5,18 +5,16 @@ public class AddSon extends Add {
 	
 	//field
 	
-	int a = 1;
-	int b = 2;
-	int c = 3;
-	
 	int sum = 0;
 	
 	// overrilde
 	
 	@Override
-	public int sum (int a, int b, int c) {
+	public int sum (int array[]) {
 		
-		return (a*b)+c +10;
+		sum = (array[0] * array[1]) + array[2] +10;
+		
+		return sum;
 	}
 	
 }

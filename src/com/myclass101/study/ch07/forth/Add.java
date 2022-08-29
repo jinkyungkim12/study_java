@@ -5,32 +5,45 @@ import java.util.Arrays;
 public class Add {
 
 	//field
-	
-	int a = 1;
-	int b = 2;
-	int c = 3;
-	
+		
 	int sum = 0;
-	
+	int [] arr = new int[3];
 	
 	//method 1
 	
-	public void array(String[] args) {
-		int[] array = {a, b, c};
+
+	public void array(int arr[])  {
+        
+        for (int i=0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+            	if(arr[i] < arr[j]) {
+            		int tmp = arr[i];
+            		arr[i] = arr[j];
+            		arr[j] = tmp;
+            	}
+            }
+        	
+        }
+    }
 	
-		Arrays.sort(array);
 	
-		for(int i = 0; i < array.length; i++) {
-			System.out.print("[" + array[i] + "] ");
+	public void printArr(int arr[]) {
+		for (int i=0; i<arr.length; i++) {
+			System.out.print("["+ arr[i] +"]");
 		}
+		
+		System.out.println(" ");
 	}
+	
 	
 	
 	//method 2
 	
-		public int sum (int a, int b, int c) {
-				
-				return (a*b)+c;
+		public int sum (int arr[]) {
+			
+			sum = (arr[0]*arr[1]) + arr[2];
+			
+				return sum;
 		}
 
 	

@@ -6,13 +6,25 @@ public class AddExample {
 
 		
 		Add add = new Add();
-		System.out.println("method2 of Add: " + add.sum(7, 1, 5));
 		
 		AddSon addSon = new AddSon();
-		System.out.println("method of AddSon: " + addSon.sum(7, 1, 5));
 		
-		System.out.println("difference: ");
-	
+		int[] arr = {10, 50, 5};
+		
+		System.out.println("<정렬 전> ");
+		add.printArr(arr);
+		
+		System.out.println("");
+		
+		System.out.println("<정렬 후> ");
+		add.printArr(arr);
+		
+		System.out.println("");
+		
+		System.out.println("부모 매서드2: " + add.sum(arr));
+		System.out.println("자식 매서드: " +addSon.sum(arr));
+		System.out.println("값 차이: " + ( add.sum(arr) - addSon.sum(arr)));
+		
 	}
 
 }
