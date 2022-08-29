@@ -9,5 +9,5 @@ public abstract class Animal {
 		}
 		
 		public abstract void sound();
-//		public abstract void sound(String m);
+		public abstract void sound(String m);
 }
