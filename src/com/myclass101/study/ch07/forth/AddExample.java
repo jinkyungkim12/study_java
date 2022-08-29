@@ -6,9 +6,13 @@ public class AddExample {
 
 		
 		Add add = new Add();
+		System.out.println("method2 of Add: " + add.sum(7, 1, 5));
 		
-		System.out.println("method2: " + add.sum(0, 0, 0));
+		AddSon addSon = new AddSon();
+		System.out.println("method of AddSon: " + addSon.sum(7, 1, 5));
 		
+		System.out.println("difference: ");
+	
 	}
 
 }

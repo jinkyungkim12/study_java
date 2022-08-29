@@ -10,27 +10,28 @@ public class Add {
 	int b = 2;
 	int c = 3;
 	
-//	int sum = 0;
+	int sum = 0;
+	
 	
 	//method 1
 	
+	public void array(String[] args) {
+		int[] array = {a, b, c};
 	
-	public static void main(String[] args)  {	
-		int[] array = {1,2,3};
-		
 		Arrays.sort(array);
-		
-		for(int i = 0; i < array.length; i++)
-		{
+	
+		for(int i = 0; i < array.length; i++) {
 			System.out.print("[" + array[i] + "] ");
 		}
 	}
+	
 	
 	//method 2
 	
 		public int sum (int a, int b, int c) {
 				
 				return (a*b)+c;
-			}
+		}
+
 	
 }

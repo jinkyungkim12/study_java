@@ -5,10 +5,11 @@ public class AddSon extends Add {
 	
 	//field
 	
-		int a = 1;
-		int b = 2;
-		int c = 3;
+	int a = 1;
+	int b = 2;
+	int c = 3;
 	
+	int sum = 0;
 	
 	// overrilde
 	
