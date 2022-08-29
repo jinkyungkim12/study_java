@@ -10,9 +10,9 @@ public class AddSon extends Add {
 	// overrilde
 	
 	@Override
-	public int sum (int array[]) {
+	public int sum (int arr[]) {
 		
-		sum = (array[0] * array[1]) + array[2] +10;
+		sum = (arr[0] * arr[1]) + arr[2] +10;
 		
 		return sum;
 	}

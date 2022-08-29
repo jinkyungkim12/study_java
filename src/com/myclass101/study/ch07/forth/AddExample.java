@@ -17,6 +17,7 @@ public class AddExample {
 		System.out.println("");
 		
 		System.out.println("<정렬 후> ");
+		add.array(arr);
 		add.printArr(arr);
 		
 		System.out.println("");
