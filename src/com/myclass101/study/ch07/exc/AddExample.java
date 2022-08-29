@@ -1,4 +1,4 @@
-package com.myclass101.study.ch07.forth;
+package com.myclass101.study.ch07.exc;
 
 public class AddExample {
 
