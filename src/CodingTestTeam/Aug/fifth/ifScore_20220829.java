@@ -1,4 +1,4 @@
-package com.myclass101.study.codingTeam.Aug.fifth;
+package CodingTestTeam.Aug.fifth;
 
 public class ifScore_20220829 {
 	

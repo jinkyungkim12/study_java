@@ -1,4 +1,4 @@
-package com.myclass101.study.codingTeam.Aug.fifth;
+package CodingTestTeam.Aug.fifth;
 
 public class For1to10_20220829 {
 
