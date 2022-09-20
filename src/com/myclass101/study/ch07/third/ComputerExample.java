@@ -4,7 +4,7 @@ public class ComputerExample {
 
 	public static void main(String[] args) {
 
-		int r = 10;
+		int r = 10; //dd
 		
 		Calculator calculator = new Calculator();
 		
