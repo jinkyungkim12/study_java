@@ -20,7 +20,7 @@ public class CompareMethodExample {
 		
 		Pair<String, String> p3 = new Pair<String, String>("user1", "홍길동");
 		
-		Pair<String, String> p4 = new Pair<String, String>("user2", "홍길동");
+		Pair<String, String> p4 = new Pair<String, String>("user1", "홍길동");
 		
 		boolean result2 = Util.compare(p3, p4);
 		if(result2) {
