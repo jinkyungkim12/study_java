@@ -2,7 +2,7 @@ package com.myclass101.study.ch15.first;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// 잘 알아두기!! 활용도 높다
 public class ArrayListExample {
 
 	public static void main(String[] args) {
