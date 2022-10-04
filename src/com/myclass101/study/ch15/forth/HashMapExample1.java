@@ -12,7 +12,7 @@ public class HashMapExample1 {
 		//Map 컬렉션 생성
 		Map<String, Integer> map = new HashMap<String, Integer>();
 		
-		//객체 저장
+		//객체 저장 map은 put이라는 함수를 사용한다(array list는 add), 함수의 종류는 다양하다!
 		map.put("신용권", 85);
 		map.put("동장군", 80);
 		map.put("홍길동", 90);
