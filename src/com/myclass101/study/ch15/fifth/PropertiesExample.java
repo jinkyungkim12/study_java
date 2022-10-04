@@ -7,9 +7,16 @@ import java.util.Properties;
 public class PropertiesExample {
 
 	public static void main(String[] args) throws Exception {
+		
 		Properties properties  = new Properties();
+		
 		String path = PropertiesExample.class.getResource("database.properties").getPath();
+		
 		path = URLDecoder.decode(path, "utf-8");
+		
+//		FileReader fileReader = new FileReader(path);
+//		properties.load(fileReader);
+		
 		properties.load(new FileReader(path));
 		
 		String driver = properties.getProperty("driver");
